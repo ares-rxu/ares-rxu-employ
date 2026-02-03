@@ -1,2 +1,2 @@
-# ares-rxu-employ
-Hire info display site
+# ARES
+Just a lander page for my contact info tbh

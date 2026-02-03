@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Iosevka Nerd';
+  src: url('/fonts/iosevka_nerd_light.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter Tight';
+  src: url('/fonts/inter_tight.ttf') format('truetype');
+  font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter Tight', sans-serif;
+    text-align: center;
+    background-color: #080808;
+    color: #D0D0D8;
+    text-shadow: 3pt 5pt 8pt #000000;
+}
+
+img {
+    width: 120pt;
+    height: 120pt;
+    border-radius: 50%;
+    margin: 10pt auto;
+    filter: drop-shadow(4px 6px 12px #000000);
+}
+
+header {
+    background-color: #0A0A0A;
+    padding: 0.5rem 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #D0D0D0;
+    filter: drop-shadow(4px 6px 12px #000000);
+}
+
+
+h1,
+h2,
+h3 {
+    font-weight: bold;
+    color: white;
+}
+
+a {
+    font-family: 'Iosevka Nerd', monospace;
+    color: #D0D0FF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+hr {
+    width: 65%;
+    border-style: dotted;
+    border-color: #303030;
+}
